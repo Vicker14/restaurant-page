@@ -4,3 +4,11 @@ import menuPageLoad from "./pages/menu";
 import aboutPageLoad from "./pages/about";
 
 console.log("Welcome to this amazing restaurant");
+
+const content = document.getElementById("content");
+
+function clearContent() {
+    content.innerHTML = "";
+}
+
+content.appendChild(homePageLoad());
