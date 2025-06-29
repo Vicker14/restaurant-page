@@ -2,11 +2,15 @@
     --color-light: #fefced;
     --color-dark: #393534;
     --color-accent: #c4381d;
+
+    --header-size: 5rem;
+    --content-size: calc(100vh - var(--header-size));
 }
 
 
 body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
 
     margin: 0;
     padding: 0;
@@ -33,4 +37,8 @@ nav button {
 }
 nav button:hover {
     text-decoration: underline var(--color-accent) 0.2rem;
+}
+
+#content {
+    height: var(--content-size);
 }
