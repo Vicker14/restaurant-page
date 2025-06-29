@@ -36,7 +36,7 @@ nav button {
     color: var(--color-light);
 }
 nav button:hover {
-    text-decoration: underline var(--color-accent) 0.2rem;
+    text-decoration: underline var(--color-accent) 0.5rem;
 }
 
 #content {
