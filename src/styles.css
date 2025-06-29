@@ -1,0 +1,36 @@
+:root {
+    --color-light: #fefced;
+    --color-dark: #393534;
+    --color-accent: #c4381d;
+}
+
+
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+
+    padding: 2rem min(500px, 25%) 1rem;
+
+    background-color: var(--color-dark);
+}
+
+nav button {
+    padding: 0;
+    margin: 0 2rem;
+    border: 0;
+
+    background: none;
+    cursor: pointer;
+    
+    color: var(--color-light);
+}
+nav button:hover {
+    text-decoration: underline var(--color-accent) 0.2rem;
+}
