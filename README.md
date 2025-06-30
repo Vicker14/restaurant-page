@@ -22,4 +22,4 @@ The goal is to practice DOM manipulation by dynamically rendering a simple resta
 
 ![Home Preview](preview-img/home.png)
 ![Menu Preview](preview-img/menu.png)
-![Contact Preview](preview-img/contact.png)
+![Contact Preview](preview-img/about.png)
