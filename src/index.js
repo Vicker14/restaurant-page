@@ -15,7 +15,7 @@ function clearContent() {
 //=============
 // Initial load
 //=============
-content.appendChild(aboutPageLoad());
+content.appendChild(homePageLoad());
 
 //=============
 // NavBar eventListeners
